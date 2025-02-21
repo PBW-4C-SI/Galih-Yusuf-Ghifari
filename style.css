@@ -1,0 +1,22 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nama {
+    color: red;
+    font-size: 40px;
+}
+
+.list {
+    list-style-type: upper-roman; /* untuk list menjadi angka romawi */
+    padding-left: 40px;
+}
+
+.mk-ketiga {
+    color: blue; /* Warna biru untuk list ketiga */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quotes {
+    font-style: italic;
+}
