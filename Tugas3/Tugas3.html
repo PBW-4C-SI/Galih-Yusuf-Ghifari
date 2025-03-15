@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .nav-item {
+            font-weight: 600;
+        }
+        
+        .navbar-brand{
+            font-weight: bold;
+            color: black;
+        }
+
+        .navbar-nav .nav-link.active,
+        .navbar-nav .nav-link:focus,
+        .navbar-nav .nav-link.show {
+            color: #0d6efd !important;
+        }
+    
+        .divider {
+            height: 1px;
+            background-color: #e5e5e5;
+            margin: 20px 0;
+        }
+        
+        .card-img-top {
+            height: 300px; 
+            object-fit: cover;
+            width: 100%; 
+        }
+
+        .contact-header {
+            color: #0d6efd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z" />
+                  </svg>Fighter</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="divider"></div>
+
+        <div class="row" id="main-content">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="makhacev.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Islam Makhachev</h5>
+                        <p class="card-text text-muted small">Galih Yusuf | Posted on 05 feb 2025</p>
+                        <p class="card-text">Islam Makhachev adalah petarung seni bela diri campuran (MMA) profesional asal Rusia yang lahir pada 27 Oktober 1991 di Makhachkala, Dagestan. Ia dikenal sebagai juara bertahan kelas ringan UFC dan dianggap sebagai salah satu petarung pound-for-pound terbaik di dunia.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="jones.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Jon Jones</h5>
+                        <p class="card-text text-muted small">Galih Yusuf | Posted on 05 feb 2025</p>
+                        <p class="card-text">Jon Jones adalah petarung MMA asal Amerika Serikat yang lahir pada 19 Juli 1987. Ia dikenal sebagai salah satu petarung terbaik dalam sejarah UFC, terutama di divisi Light Heavyweight. Jones memenangkan gelar UFC pertamanya pada 2011 dan mempertahankannya beberapa kali.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="khamzat.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Khamzat Chimaev</h5>
+                        <p class="card-text text-muted small">Galih Yusuf | Posted on 05 feb 2025</p>
+                        <p class="card-text">Khamzat Chimaev adalah petarung MMA asal Swedia yang lahir pada 1 Mei 1994 di Chechnya, Rusia. Ia dikenal karena dominasinya di UFC dengan gaya bertarung agresif dan kemampuan gulat yang luar biasa. Chimaev debut di UFC pada 2020 dan dengan cepat meraih perhatian berkat kemenangan cepat dan dominan di berbagai divisi. Dijuluki "Borz," ia dianggap sebagai salah satu prospek terbaik di MMA modern.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact-form" style="display: none;">
+            
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h3 class="contact-header">Contact Me</h3>
+                    <p class="mb-4">If you need help, please contact us via the form below</p>
+                    
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email">
+                        </div>
+                        
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="firstName" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="Enter Name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Enter Name">
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5"></textarea>
+                        </div>
+                        
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="terms">
+                            <label class="form-check-label" for="terms">I agree to the terms and conditions</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get navigation links
+            const navLinks = document.querySelectorAll('.nav-link');
+            const mainContent = document.getElementById('main-content');
+            const contactForm = document.getElementById('contact-form');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const linkText = this.textContent.trim();
+                    
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    if (linkText === 'Contact Me') {
+                        mainContent.style.display = 'none';
+                        contactForm.style.display = 'block';
+                    } else {
+                        mainContent.style.display = 'flex';
+                        contactForm.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
